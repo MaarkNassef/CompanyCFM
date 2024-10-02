@@ -22,6 +22,7 @@ This project is part of a technical assessment for ContrackFM. It involves build
    - Navigate to the file [`CompanyCFM\SqlQueries\SQLQueriesForDBCreation.sql`](https://github.com/MaarkNassef/CompanyCFM/blob/master/CompanyCFM/SqlQueries/SQLQueriesForDBCreation.sql).
    - Execute the SQL queries to create the necessary database and tables.
 
+<!-- Already included in packages
 3. **Configure Entity Framework Core**:
    Install the following NuGet packages:
    - `Microsoft.EntityFrameworkCore`
@@ -36,11 +37,12 @@ This project is part of a technical assessment for ContrackFM. It involves build
    dotnet add package Microsoft.EntityFrameworkCore.Tools
    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
    ```
+-->
 
-4. **Update the database connection string**:
+3. **Update the database connection string**:
    Ensure the connection string in `appsettings.json` is correctly pointing to your local or remote SQL Server instance.
 
-5. **Run the project**:
+4. **Run the project**:
    ```bash
    dotnet run
    ```
